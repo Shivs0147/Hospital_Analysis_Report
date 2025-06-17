@@ -1,7 +1,10 @@
 use Hospital
 
-select * from rooms;
-
+1. Patient_Data	
+	
+-- Join of the Patient -> Satisfaction_score, Patient -> Surgery, Patient -> Hospital_Bills, Patient -> beds, Patient -> Appointment, 
+--	       rooms -> beds, rooms -> department, doctor -> appointment
+	
 select 
 
 -- Patient table
@@ -82,6 +85,7 @@ left join Department as d on d.department_id = r.department_id
 left join (Select distinct Patient_id, doctor_id from Appointment) a on a.patient_id = p.patient_id
 left join doctor as dt on dt.doctor_id = a.doctor_id
 
+-- View for the Patient_Data
 
 create view [Patient_Data] as 
 select 
@@ -162,10 +166,14 @@ left join Department as d on d.department_id = r.department_id
 left join (Select distinct Patient_id, doctor_id from Appointment) a on a.patient_id = p.patient_id
 left join doctor as dt on dt.doctor_id = a.doctor_id
 
-drop view Patient_Data
+-- 	Retrive all data of the patient   		---
 
-select * from Patient_Data;
+select * from [Patient_Data];
+	
+2. Medical_Stock_Data
 
+-- Join between Medical_stock & Supplier
+	
 select 
 	ms.medicine_id as Medicine_ID,
 	ms.name as Medicine_Name,
@@ -188,6 +196,8 @@ select
 	su.Contract_End_Date as Supplier_Contract_End_Date
 from medical_Stock as ms
 left join supplier as su on su.supplier_id = ms.supplier_id;
+
+-- View for the Medical_Stock_Data
 
 create view [Medical_Stock_Data] as 
 select 
@@ -213,21 +223,25 @@ select
 from medical_Stock as ms
 left join supplier as su on su.supplier_id = ms.supplier_id;
 
+-- 	Retrive all data of the stock   		---
 
+select * from [Medical_Stock_Data];
 
-select * from Medical_Stock_Data;
+3. Billing_Data
 
-select * from Hospital_Bills;
-
-select * from Beds
+-- Join between Bed & Room
 
 select count(bd.bed_id) bed, rm.room_type, rm.room_id, bd.status from beds as bd 
 left join Rooms as rm on rm.room_id = bd.room_id
 group by  rm.room_type, rm.room_id, bd.status
 
-create view Bed_Data as 
+-- View for the Bed_Data
+
+create view [Bed_Data] as 
 select count(bd.bed_id) bed, rm.room_type, rm.room_id, bd.status from beds as bd 
 left join Rooms as rm on rm.room_id = bd.room_id
 group by  rm.room_type, rm.room_id, bd.status
 
-select * from Bed_Data
+-- 	Retrive all data of the bed and room   		---
+	
+select * from [Bed_Data]
