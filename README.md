@@ -224,3 +224,11 @@
 </ul>
 
 Show what the dashboard looks like. - ![Patient Dashboard](Snapshot%20of%20Patient%20Dashboard.png)
+
+### **5.   📊 Live Dashboard Preview**
+<ul>
+  <li>Want to see the dashboard in action?</li>
+
+  [Check Dashboard](https://app.powerbi.com/groups/me/reports/de342b67-ab9c-439e-b972-b00d5ee5e9fa/4c086c7a91bff4f84f44?experience=power-bi)
+
+</ul>
