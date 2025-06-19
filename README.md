@@ -173,6 +173,10 @@
     <li>Shows you've worked with relational databases, not just flat files.</li>
     <li>Custom tables highlight data modeling skills (very important in Power BI).</li>
   </ul>
+
+  Note: "If you have downloaded the dataset and the data paths are not working correctly or you're encountering a data path error, please click the link below to fix it."
+
+  [solution](https://github.com/Shivs0147/Hospital_Analysis_Report/blame/main/File_Express.mp4)
 </p>
 
 ### **📊 4.   Dashboard's Features / Overview**
