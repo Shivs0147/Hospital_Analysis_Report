@@ -385,7 +385,7 @@
   <ul>
   <li>
 
-  In GITHUB - [Check Dashboard](https://github.com/Shivs0147/Hospital_Analysis_Dashboard/blob/main/Hospital_Dashboard.pbit) (Download and Use it)
+  In GITHUB - [Check Dashboard](https://github.com/Shivs0147/Hospital_Analysis_Dashboard/blob/main/Hospital_Dashboard.pbix) (Download and Use it)
 
   </li>
 </ul>
