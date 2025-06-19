@@ -1,7 +1,7 @@
 # Hospital_Sales_Dashboard
 ## Recommended Structure and Order
 
-### **1.   Project Title and Overview**
+### **✅ 1.   Project Title and Overview**
 <p> ✅ What's needed:
   <ul align = "justify">
     <li>Title: Hospital Analytics Dashboard – Power BI + SQL</li>
@@ -17,7 +17,7 @@
   </ul>
 
 
-### **2.   Tech Stack**
+### **🛠️ 2.   Tech Stack**
 <p> ✅ What's needed:
   <ul align = "justify">
     <li>The dashboard was built using the following tools and technologies:<br></li>
@@ -39,7 +39,7 @@
   </ul>
 </p>
 
-### **3.   Data Sources**
+### **🗃️ 3.   Data Sources**
 <p> ✅ What's needed:
   <ul align = "justify">
     <li> This project is based on a hospital dataset demonstrated in a <b>YouTube tutorial</b>. The dataset was downloaded, cleaned, and imported into SQL Server as <b>Hospital</b> Database.</li>
@@ -175,60 +175,235 @@
   </ul>
 </p>
 
-### **4.   Features / Overview**
+### **📊 4.   Dashboard's Features / Overview**
+
   <ul align = "justify">
     <li>This section is where the depth of our dashboard really shines. Let's break it down category-by-category:</li>
   </ul>
-  <ol type="A">
-    <li><b>Patient Dashboard</b></li>
-  </ol>
- 1️⃣ 👤 Dynamic Patient Selector (with Images)
-<ul>
-  <li>Feature: <i>Vertical slicer with patient names and profile photos</i></li>
-  <li>Benefit: <i>Easy visual identification for non-technical hospital staff</i></li>
-</ul>
-2️⃣ 📋 Detailed Patient Profile Card
-<ul>
-  <li>Displays: <i>Patient Photo & Name, Status (e.g., Discharged), Doctor Assigned, Age, Diagnosis, and Rating (with stars</i></li>
-  <li>Visual Touch: <i>Star-rating system for patient experience</i></li>
-</ul>
-3️⃣ 📞 Personal Info & Medical Info Sections
-<ul>
-  <li>Personal Info: <i>Gender, Phone, Email, Address, State</i></li>
-  <li>Patient Info: <i>Patient ID, Bed ID, Blood Group, Admit & Discharge Dates, Weight, Room</i></li>
-  <li>Use Case: <i>Separates contact info from clinical details for better usability</i></li>
-</ul>
-4️⃣ 📅 Date Range and Calendar Filters
-<ul>
-  <li>Feature: <i>Monthly calendar-style slicer on the left</i></li>
-  <li>Use Case: <i>Track patients by month to analyze flow</i></li>
-</ul>
-5️⃣ 💰 Billing – Charges Visualization
-<ul>
-  <li>Type: Horizontal bar chart</li>
-  <li>Details: <i>Surgery, Room, Test, Fees, Medicine, Other</i></li>
-  <li>Highlight: <i>Length of bar indicates the charge level</i></li>
-</ul>
-6️⃣ 💊 Medicine Sales Breakdown
-<ul>
-  <li>Visual: <i>Horizontal bar chart showing medicine quantity</i></li>
-  <li>Insight: <i>Top-used medicines like Omeprazole, Paracetamol, etc.</i></li>
-</ul>
-7️⃣ 📈 Key Metrics Summary Cards
-<ul>
-  <li>KPI Cards Shown:</li><i>
-   -   Admit Date<br>
-   -   Discharge Date<br>
-   -   Total Bill <br>
-   -   Total Sales Qty<br></i>
+  
+  <b>A. Patient Dashboard</b></li>
+  
+ 1️⃣ Dynamic Patient Selector (with Images)
+ 
+  <ul align = "justify">
+    <li>🔹 Feature: <i>Vertical slicer with patient names + profile photos.</i></li>
+    <li>🧩 Use Case: <i>Non-technical hospital staff can visually select the right patient quickly.</i></i>
+    <li>🎯 Benefit: <i>Improves usability, faster navigation, and accurate patient selection.</i></li>
+  </ul>
+  
+2️⃣ Patient Profile Card
+
+  <ul align = "justify">
+    <li>🔹 Feature: <i>Shows essential patient info - Patient Photo & Name, Status (e.g., Discharged), Doctor Assigned, Age, Diagnosis and Rating (with stars).</i></li>
+  <li>🧩 Use Case: <i>Quick overview of patient's background, feedback, and doctor info.</i></li>
+    <li>🎯 Benefit: <i>Humanizes patient experience while keeping clinical details compact.</i></li>
+  </ul>
+  
+3️⃣ Personal & Medical Info Panel (Right)
+
+  <ul align = "justify">
+    <li>🔹 Feature: <br><i> ➔ Personal Info: Gender, Phone, Email, Address, State <br> ➔ Patient Info: Patient ID, Bed ID, Blood Group, Admit/Discharge Date, Weight, Room No.</i><br></li>
+  <li>🧩 Use Case: <i>Used by front-desk or nursing staff to quickly find contact and medical info.</i></li>
+  <li>🎯 Benefit: <i>Separation makes it easier to focus on what’s needed – personal or medical.</i></li>
 </ul>
 
-Show what the dashboard looks like. - ![Patient Dashboard](Snapshot%20of%20Patient%20Dashboard.png)
+4️⃣ Calendar Date Filter (Left Bottom Corner)
 
-### **5.   📊 Live Dashboard Preview**
+  <ul align = "justify">
+   <li>🔹 Feature: <i>Monthly calendar-style slicer used to filter patients by admit/discharge date.</i></li>
+   <li>🧩 Use Case: <i>Clicking on a date filters the dashboard to only show data for that day/month.</i></li>
+   <li>🎯 Benefit: <br><i>➔ Analyzes patient flow over time. <br> ➔ Helps in capacity planning (when most admissions occur). <br> ➔ Boosts time-based insights for hospital managers.</i></li>
+</ul>
+
+5️⃣ Billing – Charges Visualization
+
+  <ul align = "justify">
+    <li>🔹 Feature: <i>Horizontal bar chart</i>Bar chart showing cost distribution for - Surgery, Room, Test, Other Fees, Medicine.</li>
+  <li>🧩 Use Case: <i>Financial staff can review where most billing is happening.</i></li>
+  <li>🎯 Benefit: <i>Visual clue on major medical expenses per patient.</i></li>
+</ul>
+
+6️⃣  Medicine Usage Analysis (Bottom Center Right)
+
+  <ul align = "justify">
+    <li>🔹 Feature: <i>Bar chart showing quantity of each medicine prescribed - Omeprazole, Paracetamol, Atorvastatin, etc.</i></li>
+  <li>🧩 Use Case: <i>Pharmacist or admin can analyze stock usage or popular medicines.</i></li>
+  <li>🎯 Benefit: <i>Improves restocking decisions and medication pattern tracking.</i></li>
+</ul>
+
+7️⃣ Key Metrics Summary Cards
+
+  <ul>
+    <li>🔹 Feature: <i>Key metrics at a glance - Admit Date, Discharge Date, Total Bill, Total Sales Qty</i></li>
+  <li>🎯 Benefit: <i>Snapshot of patient value, duration, and medicine consumption.</i></li><br>
+
+  Show what the dashboard looks like. - ![Patient Dashboard](Snapshot%20of%20Patient%20Dashboard.png)
+</ul>
+
+<b>B. Patient Dashboard</b></li>
+
+1️⃣ Doctor Overview Section
+  <ul align = "justify">
+    <li>🔹 Feature: <i>Scrollable, clickable list of doctors with their profile images and names.</i></li>
+    <li>🧩 Use Case: <i>Select a doctor to view their individual profile, earnings, and patient data.</i></li>
+    <li>🎯 Benefit: <i>Quick navigation for hospital staff to analyze each doctor separately without manual search.</i></li>
+  </ul>
+
+2️⃣ Doctor Profile Card (Center)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Displays selected doctor's key information - Name, Qualification (MS ENT), Doctor ID, Phone Number, Department, Status (Available/Busy), Star Rating with a patient feedback quote</i></li>
+  <li>🧩 Use Case: <i>Allows admin/staff to verify doctor status and contact info at a glance.</i></li>
+  <li>🎯 Benefit: <i>Combines clinical details and patient feedback in one card — perfect for performance review.</i></li>
+</ul>
+
+3️⃣ Upcoming Appointment Panel (Behind Doctor Slider)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Displays the next appointment time and patient name for the selected doctor.</i></li>
+  <li>🧩 Use Case: <i>Helpful for:<br> - Doctors to view their next scheduled appointment <br> - Reception/admin to track who is next in queue <br> - Avoiding double-booking and improving time management </i></li>
+  <li>🎯 Benefits: <i> Real-Time Updates, Doctor Reminder, Admin Coordination, Patient Readiness</i></li>
+</ul>
+
+ 4️⃣ Key Financial Metrics (Bottom Cards)
+
+ <ul align = "justify">
+   <li>🔹 Feature: <i>Displays financial details related to the selected doctor - Salary, Total Commission, Total Patient Spend, Total Patient Fees</i></li>
+   <li>🧩 Use Case: <i>Used for HR, admin, or finance team to evaluate doctor’s revenue contribution.</i></li>
+   <li>🎯 Benefit: <i>Immediate insight into a doctor's earning and contribution metrics. </i></li>
+ </ul>
+
+5️⃣ Commission Calculator (Top-Right Panel)
+
+ <ul align = "justify">
+   <li>🔹 Feature: <i>Interactive calculator with sliders.</i></li>
+   <li>🧩 Use Case: <i>Helps management simulate commission payouts under different scenarios.</i></li>
+   <li>🎯 Benefit: <i>Live forecasting without manual calculations.</i></li>
+ </ul>
+
+  6️⃣ Patient History Table (Bottom-Right Section)
+
 <ul>
-  <li>Want to see the dashboard in action?</li>
+  <li>🔹 Feature: <i>Displays patients consulted/treated by selected doctor - Patient photo, Name, Status (e.g., Discharged), Amount billed, Payment status</i></li>
+  <li>🧩 Use Case: <i>Check how much revenue each patient contributed under that doctor.</i></li>
+  <li>🎯 Benefit: <i>Transparent patient tracking and doctor-wise billing summary. </i></li><br>
 
-  [Check Dashboard](https://app.powerbi.com/groups/me/reports/de342b67-ab9c-439e-b972-b00d5ee5e9fa/4c086c7a91bff4f84f44?experience=power-bi)
+  Show what the dashboard looks like. - ![Doctor Dashboard](Snapshot%20of%20Doctor%20Dashboard.png)
+</ul>
+
+<b>C. Surgery Dashboard</b>
+
+1️⃣ Surgery Schedule Panel (Bottom Left)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Displays upcoming or recent surgeries with time, date, and patient name. </i></li>
+  <li>🧩 Use Case: <i>Helps staff quickly check the next scheduled surgeries — avoids conflicts and improves preparedness.</i></li>
+  <li>🎯 Benefit: <i>Live view of surgical schedules without opening any manual records.</i></li>
+</ul>
+
+2️⃣ Patient Category Analysis (Top Center)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Bar chart showing patients segmented by age group - Adult, Middle-aged, Senior Citizens, Youth.</i></li>
+  <li>🧩 Use Case: <i>Helps hospital management identify which age group requires the most treatment.</i></li>
+  <li>🎯 Benefit: <i>Improves resource allocation (e.g., more adult care staff or medicine) based on data.</i></li>
+</ul>
+
+3️⃣ Patient Test Results Table (Top Right)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Detailed table with - Patient name, Result (e.g., Abnormal), Status (e.g., Completed), Notes (disease or diagnosis).</i></li>
+  <li>🧩 Use Case: <i>Review diagnostic outcomes & doctor observations for any abnormalities.</i></li>
+  <li>🎯 Benefit: <i>✔️ Ensures complete and accurate test result tracking with no confusion.</i></li>
+</ul>
+
+4️⃣ Case Summary Panel (Bottom Right)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Horizontal scrollable card view + table showing - Doctor, Patient, Age, Reason for visit, Suggested treatment/notes.</i></li>
+  <li>🧩 Use Case: <i>Useful for reviewing multiple cases handled by various doctors.</i></li>
+  <li>🎯 Benefit: <i>🔍 Quick snapshot of who treated whom, for what, and next action.</i></li>
+</ul>
+
+5️⃣ Bed Availability by Room Type (Bottom Center)
+
+<ul>
+  <li>🔹 Feature: <i>Stacked column chart showing number of rooms (General, ICU, Private) by status (Available vs Occupied).</i></li>
+  <li>🧩 Use Case: <i>Real-time occupancy tracking by room type.</i></li>
+  <li>🎯 Benefit: <i>Essential for bed management and quick patient accommodation decisions.</i></li><br>
+
+  Show what the dashboard looks like. - ![Surgery Dashboard](Snapshot%20of%20Surgery%20Dashboard.png)
+</ul>
+
+<b>D. Finance Dashboard</b>
+
+1️⃣ Financial KPI Cards (Top Right Section)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Shows important hospital-wide metrics like Patients, Doctors, Staffs, Total Bill, etc.</i></li>
+  <li>🧩 Use Case: <i>Admin/Finance team can get real-time summary of operations and financial health.</i></li>
+  <li>🎯 Benefit: <i><br> - Data-driven strategic planning. <br> - One-view operational dashboard. <br> - Budgeting and HR planning support.</i></li>
+</ul>
+
+2️⃣ Monthly Sales Bar Chart (Bottom Left)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Shows monthly medicine or service sales trend over time.</i></li>
+  <li>🧩 Use Case: <i>Track monthly revenue trend and analyze seasonality or promotional impact.</i></li>
+  <li>🎯 Benefit: <i>Identify best and worst performing months → Improve cash flow predictions.</i></li>
+</ul>
+
+3️⃣ Charges Distribution Chart (Bottom Center)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>Visual breakdown of hospital charges as Surgery, Room, Test, Other, etc.</i></li>
+  <li>🧩 Use Case: <i>Understand which services generate the most revenue.</i></li>
+  <li>🎯 Benefit: <i>Smart cost control and pricing decisions based on major revenue sources.</i></li>
+</ul>
+
+4️⃣ Medicine Stock vs Sales Status (Top Right Panel)
+
+<ul align = "justify">
+  <li>🔹 Feature: <i>100% stacked bar chart showing as % in stock vs % sold for top medicines like Paracetamol, Ibuprofen, Omeprazole, etc.</i></li>
+  <li>🧩 Use Case: <i>Track demand and usage of critical medicines.</i></li>
+  <li>🎯 Benefit: <i>Avoid overstocking or understocking → Better inventory control.</i></li>
+</ul>
+
+5️⃣ Supplier Stock Status (Bottom Right Panel)
+
+<ul>
+  <li>🔹 Feature: <i>Shows stock vs sales % for different suppliers: <br> - HealthCare → 52.49% stock, 47.51% sales.<br> - MediCore Essentials → 49.15% stock, 50.85% sales. <br> - MediPharm → 50.34% stock, 49.66% sales.</i></li>
+  <li>🧩 Use Case: <i>Evaluate supplier performance and inventory turnover.</i></li>
+  <li>🎯 Benefit: <i>Choose most reliable and efficient suppliers.</i></li><br>
+
+  Show what the dashboard looks like. - ![Finance Dashboard](Snapshot%20of%20Finance%20Dashboard.png)
+</ul>
+
+### **🎥 5.   Demo / Usage**
+<ul>
+  <li>🔎 Explore the Dashboard Live:<br><br> - You can view the interactive Hospital Analytics Dashboard:</li>
+
+In Power BI - [Check Dashboard](https://app.powerbi.com/groups/me/reports/de342b67-ab9c-439e-b972-b00d5ee5e9fa/4c086c7a91bff4f84f44?experience=power-bi) (Login Required)
+
+In GITHUB - [Check Dashboard](https://github.com/Shivs0147/Hospital_Analysis_Dashboard/blob/main/Hospital_Dashboard.pbit) (Download and Use it)
 
 </ul>
+
+### **👤 6. Author & Contact**
+
+<ul>
+  <li>Name - Shivam Gabani</li>
+  <li>📧 Email: shivamgabani.744@outlook.com</li>
+  <li>💼 LinkedIn: https://www.linkedin.com/in/shivam-gabani-38192a36b/</li>
+  <li>📍 Surat, Gujarat.</li>
+</ul>
+
+### **🚀 7.   Next Steps**
+<ul align = "Justiify">
+  <li>Make sure all dashboards are covered in the "Dashboard Features" section.</li>
+  <li>If any dashboards are missing, you can check as below link.</li>
+  
+[Check all dashboards](https://github.com/Shivs0147/Hospital_Analysis_Dashboard/tree/main)
+  
+</ul>
+ 
