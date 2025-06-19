@@ -381,11 +381,28 @@
 
 ### **🎥 5.   Demo / Usage**
 <ul>
-  <li>🔎 Explore the Dashboard Live:<br><br> - You can view the interactive Hospital Analytics Dashboard:</li>
+<li>👉 Explore the Dashboard Live:<br><br> - You can view the interactive Hospital Analytics Dashboard:</li>
+  <ul>
+  <li>
 
-In Power BI - [Check Dashboard](https://app.powerbi.com/groups/me/reports/de342b67-ab9c-439e-b972-b00d5ee5e9fa/4c086c7a91bff4f84f44?experience=power-bi) (Login Required)
+  In GITHUB - [Check Dashboard](https://github.com/Shivs0147/Hospital_Analysis_Dashboard/blob/main/Hospital_Dashboard.pbit) (Download and Use it)
 
-In GITHUB - [Check Dashboard](https://github.com/Shivs0147/Hospital_Analysis_Dashboard/blob/main/Hospital_Dashboard.pbit) (Download and Use it)
+  </li>
+</ul>
+</ul>
+<ul>
+  <li>👉 If requirements to run locally (optional) <br><br><i> - If you'd like to explore the .pbix file:</i> </li><br>
+  I. Install Power BI Desktop.<br>
+  II. Open Hospital_Analysis_Dashboard.pbix file.<br>
+  III. Update SQL Server credentials if you're connecting your own database.<br>
+
+<ul>
+  <li>
+
+In Power BI - [Check Dashboard](https://app.powerbi.com/groups/me/reports/de342b67-ab9c-439e-b972-b00d5ee5e9fa/4c086c7a91bff4f84f44?experience=power-bi) (Signin Required)
+
+</li>
+</ul>
 
 </ul>
 
@@ -407,3 +424,13 @@ In GITHUB - [Check Dashboard](https://github.com/Shivs0147/Hospital_Analysis_Das
   
 </ul>
  
+---
+
+## 🙌 Thanks for Scrolling!
+
+If you liked this project, feel free to star ⭐ the repo or connect with me on LinkedIn.
+
+I’m always open to feedback, learning, and new collaborations.
+
+Cheers!  
+**– Shivam Gabani**
