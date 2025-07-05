@@ -4,7 +4,7 @@
 ### **✅ 1.   Project Title and Overview**
 <p> ✅ What's needed:
   <ul align = "justify">
-    <li>Title: Hospital Analytics Report – Power BI + SQL</li>
+    <li><b>Title: Hospital Analytics Report – Power BI + SQL</b></li>
     <li>Summary: This project is a Power BI Report consisting of multiple dashboards including Patient, Doctor, Hospital, Finance, and Overview insights. This is provides an end-to-end analysis of hospital operations, including patient management, staff  activities, bed usage, medicine tracking, and billing. The purpose is to support hospital administrators in making data-driven decisions for improved efficiency and patient care.</li>
   </ul></p>
   <p>
